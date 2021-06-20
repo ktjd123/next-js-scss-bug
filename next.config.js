@@ -1,3 +1,8 @@
+const path = require("path");
+
 module.exports = {
-  reactStrictMode: true,
-}
+	sassOptions: {
+		includePaths: ["styles"],
+		additionalData: "@import 'utils';",
+	},
+};
